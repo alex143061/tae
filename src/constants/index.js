@@ -10,6 +10,11 @@ import {
   reactjs,
   redux,
   tailwind,
+ xampp,
+ postman,
+ capcut,
+ arduino,
+ wireshark,
   nodejs,
   mongodb,
   git,
@@ -45,9 +50,17 @@ import {
   matrixai,
   zapflow,
   notable,
+  cplusplus,
+  wampserver,
+  mysqlworkbench,
+  laravel,
+  java,
+  wordpress,
+ 
 
 
 } from "../assets";
+
 export const navLinks = [
   {
     id: "about",
@@ -65,15 +78,15 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Software Developer",
     icon: web,
   },
   {
-    title: "Frontend Developer",
+    title: "Computer Engineer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Tech Support Specialist",
     icon: backend,
   },
   {
@@ -96,17 +109,21 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "C++",
+    icon: cplusplus,
   },
+  // {
+  //   name: "TypeScript",
+  //   icon: typescript,
+  // },
   {
     name: "React JS",
     icon: reactjs,
   },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
+  // {
+  //   name: "Redux Toolkit",
+  //   icon: redux,
+  // },
   {
     name: "Tailwind CSS",
     icon: tailwind,
@@ -115,10 +132,10 @@ const technologies = [
     name: "Node JS",
     icon: nodejs,
   },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
+  // {
+  //   name: "MongoDB",
+  //   icon: mongodb,
+  // },
   {
     name: "python",
     icon: python,
@@ -132,17 +149,55 @@ const technologies = [
     icon: figma,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "wampserver",
+    icon: wampserver,
+  },
+  // {
+  //   name: "xampp",
+  //   icon: xampp,
+  // },
+  {
+    name: "mysqlworkbench",
+    icon: mysqlworkbench,
+  },{
+    name: "postman",
+    icon: postman,
   },
   {
-    name: "django",
-    icon: django,
+    name: "capcut",
+    icon: capcut,
   },
   {
-    name: "postgres",
-    icon: postgres,
+    name: "arduino",
+    icon: arduino,
+  },  {
+    name: "wireshark",
+    icon: wireshark,
+  }, {
+    name: "laravel",
+    icon: laravel,
+  }, {
+    name: "java",
+    icon: java,
+  }, {
+    name: "wordpress",
+    icon: wordpress,
   },
+
+
+
+  // {
+  //   name: "docker",
+  //   icon: docker,
+  // },
+  // {
+  //   name: "django",
+  //   icon: django,
+  // },
+  // {
+  //   name: "postgres",
+  //   icon: postgres,
+  // },
   {
     name: "sql",
     icon: sql,
@@ -163,8 +218,8 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Full-Stack Developer",
-    company_name: "Hack Reactor",
+    title: "WordPress Developer",
+    company_name: "C & L Physiotherapy Clinic",
     icon: code1,
     iconBg: "#E6DEDD",
     date: "2021",
@@ -175,15 +230,15 @@ const experiences = [
     ],
   },
   {
-    title: "Full-Stack Developer",
-    company_name: "ChiqueChickShop",
+    title: "Super Reviewer Trainee",
+    company_name: "Remotask",
     icon: code1,
     iconBg: "#383E56",
-    date: "2022",
+    date: "2019 - 2020",
     points: [
-      "Developed ChiqueChickShop, a responsive e-commerce platform.",
-      "Enhanced user experience with intuitive navigation features.",
-      "Implemented secure payment processing for online transactions.",
+      "Specialized in reviewing and quality-checking 3D LiDAR data annotations for self-driving car projects to ensure precision and accuracy.",
+      "Provided feedback to contributors on improving 3D LiDAR annotation for autonomous vehicles.",
+      "Collaborated with annotation teams to identify inconsistencies and maintain high annotation standards across complex 3D environments.",
     ],
   },
   {

@@ -7,6 +7,7 @@ import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 import { jeff } from "../assets";
+import { alexa } from "../assets";
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt className="xs:w-[250px] w-full">
     <div
@@ -47,23 +48,20 @@ const About = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          Hello! I'm Jeff Jiang, a New York-based Full-Stack Developer
-          proficient in an array of modern technologies including Python 3,
-          JavaScript ES6+, SQL, Django 4, MongoDB, Node.js, React, and more. I'm
-          passionate about creating dynamic, efficient, and user-friendly web
-          applications. I have hands-on experience in developing e-commerce
-          platforms, utilizing technologies such as Next.js, Strapi, Tailwind,
-          Firebase, and Redux. I am also experienced in managing the full
-          project lifecycle from setup to deployment. My journey in tech is
-          supported by my prior experiences, including my time as a Police
-          Officer at NYPD and a Restaurant Manager, which honed my skills in
-          teamwork, problem-solving, and operations management. Feel free to
-          explore my projects and get in touch at{" "}
+          I am Alexander Maiso, a versatile Computer Engineer and Full-Stack Developer with a 
+          strong foundation in WordPress development, software engineering, and technical 
+          support. I specialize in building dynamic websites, developing custom plugins, and 
+          integrating APIs to optimize web and business systems. With hands-on experience in 
+          MySQL, CRM workflows and automation, and desktop application development, I combine technical 
+          expertise with a problem-solving mindset to deliver efficient and scalable solutions. As a 
+          natural tech support specialist, I also provide reliable troubleshooting and network 
+          administration services to ensure seamless system operations.
+          Feel free to explore my projects and get in touch at{" "}
           <a
-            href="mailto:jeff.jiang13@gmail.com"
+            href="alexandermaiso99@gmail.com"
             className="animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent font-black"
           >
-            jeff.jiang13@gmail.com.
+            alexandermaiso99@gmail.com
           </a>{" "}
           I'm always open to new opportunities and collaborations!{" "}
         </p>
@@ -77,9 +75,9 @@ const About = () => {
               className="bg-tertiary rounded-[20px] min-h-[250px] flex justify-evenly items-center flex-col overflow-hidden"
             >
               <img
-                src={jeff}
-                alt="jeff"
-                className="w-full h-full object-contain"
+                src={alexa}
+                alt="alexa"
+                className="w-100 h-80 object-contain"
               />
             </div>
           </div>

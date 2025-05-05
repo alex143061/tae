@@ -7,6 +7,17 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import code1 from "./code1.png";
+import cplusplus from "./tech/cplusplus.png";
+import wampserver from "./tech/wampserver.png";
+import xampp from "./tech/xampp.png";
+import mysqlworkbench from "./tech/mysqlworkbench.png";
+import postman from "./tech/postman.png";
+import capcut from "./tech/capcut.png";
+import arduino from "./tech/arduino.png";
+import wireshark from "./tech/wireshark.png";
+import laravel from "./tech/laravel.png";
+import java from "./tech/java.png";
+import wordpress from "./tech/wordpress.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -38,6 +49,8 @@ import movie from "./movie.png"
 import shop from "./shop.png"
 import youtube from "./youtube.png"
 import jeff from "./jeff.jpg"
+import alexa from "./alexa.jpg"
+
 import liveLink from "./liveLink.png"
 import portfolio15 from "./portfolio15.png"
 import portfolio16 from "./portfolio16.png"
@@ -53,12 +66,20 @@ import notable from "./notable.png";
 import zapflow from "./zapflow.png";
 
 
+
 export {
+  alexa,
   logo,
+  java,
+  wordpress,
+  laravel,
+  xampp,
   backend,
   creator,
   mobile,
   web,
+  wampserver,
+  cplusplus,
   github,
   menu,
   close,
@@ -106,4 +127,9 @@ export {
   beeclone,
   notable,
   zapflow,
+  mysqlworkbench,
+  postman,
+  capcut,
+  arduino,
+  wireshark,
 };

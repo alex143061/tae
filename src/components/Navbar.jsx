@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { logo, menu, close } from "../assets";
-import resume from "/src/assets/alex_cv.pdf";
+import resume from "/src/jeff_jiang.pdf";
 import { LOGO2 } from "../assets";
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -51,7 +51,7 @@ const Navbar = () => {
         </Link>
 
         <ul className="list-none hidden sm:flex flex-row items-center gap-10">
-        <a href={resume} download="alex_cv.pdf">
+        <a href={resume} download="jeffa_jiang.pdf">
             <button
               className={`${
                 active === Link.title ? "abhishek" : "abhishek-btn"

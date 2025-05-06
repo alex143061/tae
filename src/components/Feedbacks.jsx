@@ -60,7 +60,7 @@ const ImageCarousel = () => {
 
   return (
     <div className="carousel-container">
-      <p className={styles.sectionSubText}>Check it out</p>
+      <p className={styles.sectionSubText}>My Certifications</p>
       <h2
         className={`${styles.sectionHeadText} animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent font-black`}
       >

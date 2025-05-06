@@ -52,6 +52,16 @@ import jeff from "./jeff.jpg"
 import alexa from "./alexa.jpg"
 
 import liveLink from "./liveLink.png"
+
+import networking from "./networking.png"
+import customersupport from "./customersupport.png"
+import mysqlpic from "./mysqlpic.png"
+import cyberpic from "./cyberpic.png"
+import crmhub from "./crmhub.png"
+import googleworkspace from "./googleworkspace.png"
+import cybercert from "./cybercert.png"
+
+
 import portfolio15 from "./portfolio15.png"
 import portfolio16 from "./portfolio16.png"
 import portfolio17 from "./portfolio17.png"
@@ -132,4 +142,12 @@ export {
   capcut,
   arduino,
   wireshark,
+
+  networking,
+  customersupport,
+  mysqlpic,
+  cyberpic,
+  crmhub,
+  googleworkspace,
+  cybercert,
 };

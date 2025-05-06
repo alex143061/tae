@@ -17,6 +17,8 @@ const ProjectCard = ({
   image,
   source_code_link,
   liveUrl,
+  // height, // add this
+  // width 
 }) => {
   return (
     // <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -32,7 +34,8 @@ const ProjectCard = ({
           <img
             src={image}
             alt="project_image"
-            className="w-full h-full object-cover rounded-2xl"
+            // style={{ height: `${height}px`, width: width ? `${width}px` : "100%" }}
+            className="w-full h-full object-cover rounded-3xl"
           />
 
           <div className="absolute inset-0 flex gap-2 justify-end m-3 card-img_hover">

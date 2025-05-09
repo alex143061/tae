@@ -92,14 +92,14 @@ const Hero = () => {
           />
         </Link>
 
-        <Link target="_blank" to="https://twitter.com/jeffjiang9">
+        <Link target="_blank" to="https://x.com/IamAlex84766006?t=PeIeLtyPl3165oaxz90XqA&s=07">
           <BsTwitter
             size={30}
             className="icon hover:text-[#1DA1F2] hover:translate-y-[-2px] hover:cursor-pointer transition-all ease-in duration-100"
           />
         </Link>
 
-        <Link target="_blank" to="https://discord.com/channels/@jeff.jiang13">
+        <Link target="_blank" to="https://discord.com/channels/@dffs221">
           <BsDiscord
             size={30}
             className="icon hover:text-[#5865F2] hover:translate-y-[-2px] hover:cursor-pointer transition-all ease-in duration-100"

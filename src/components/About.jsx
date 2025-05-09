@@ -72,7 +72,7 @@ const About = () => {
           >
             <div
               options={{ max: 45, scale: 1, speed: 450 }}
-              className="bg-tertiary rounded-[5px] min-h-[390px] flex justify-evenly items-center flex-col overflow-hidden"
+              className="bg-tertiary rounded-[20px] min-h-[390px] flex justify-evenly items-center flex-col overflow-hidden"
             >
               <img
                 src={alexa}
